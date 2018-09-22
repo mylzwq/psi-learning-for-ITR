@@ -1,0 +1,23 @@
+Package: psiLearn
+Type: Package
+Title: An Implementation of psiLearn on Individualized Treatment Rule
+Version: 0.1.0
+Author: Mingyang Liu <liux3941@umn.edu>
+Maintainer: Mingyang Liu <liux3941@umn.edu>
+Description: Estimation of an optimal treatment rule using psiLearning. The method is designed for binary
+             treatment options. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+        CVXR,
+        foreach,
+        kernlab,
+        DTRlearn,
+        glmnet,
+        Rmpfr
+Depends: R (>= 3.4.0),
+         foreach,
+         caret,
+         doParallel
+RoxygenNote: 6.0.1
